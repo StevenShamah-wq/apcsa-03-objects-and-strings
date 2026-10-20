@@ -21,14 +21,14 @@
  */
 public class Formatter {
     public static void main(String[] args) {
-        String firstName = "Sarah";
-        String lastName = "Levy";
+        String firstName = "Steven";
+        String lastName = "Shamah";
         int age = 16;
         double gpa = 3.85;
         char section = 'A';
         int currentYear = 2026;
 
-        // Your code here
+        System.out.println("=========================\n STUDENT PROFILE \n=========================" + "\n Name: \t\t" + firstName + " " + lastName + "\n Age: \t\t" + age + "\n GPA: \t\t" + gpa + "\nSection: \t" + section + "\n========================= \nTurns 100 in: " + (currentYear - age + 100));
 
     }
 }
