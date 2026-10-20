@@ -12,10 +12,16 @@
  */
 public class MadLibs {
     public static void main(String[] args) {
+        boolean isPointThreeGuard = true;
+        char haircut = 'W';
+        double guard = 0.3;
+        int days = 180;
+        String person = "Mr. Al";
+        int realGuard = 1;
 
-        // Declare your variables
+        System.out.println(person + " waits " + days + " days " + " between each haircut. " + person + " claims he uses " + guard + " guard but is " + isPointThreeGuard + " . " + person + "actually uses a " + realGuard + " guard. Which gives him a " + haircut + " haircut ");
 
-        // Build and print the story
+    
 
     }
 }
