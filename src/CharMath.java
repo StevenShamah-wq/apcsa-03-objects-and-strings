@@ -14,8 +14,17 @@
  */
 public class CharMath {
     public static void main(String[] args) {
+        System.out.println("'A' = " + (int) 'A');
+        System.out.println("'a' = " + (int) 'a');
+        System.out.println("'Z' = " + (int) 'Z');
+        System.out.println("'0' = " + (int) '0');
+        System.out.println("' ' = " + (int) ' ');
 
-        // Your code here
+        System.out.println("(char) 65 = " + (char) 65);
+
+        System.out.println("After M = " + (char) ('M' + 1));
+
+        System.out.println("Gap between A and a = " + ('a' - 'A'));
 
     }
 }
