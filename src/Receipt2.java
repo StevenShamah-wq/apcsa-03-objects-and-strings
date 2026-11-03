@@ -38,8 +38,8 @@ public class Receipt2 {
         System.out.println("Soda: $" + sodaTotal);
         System.out.println("----------------------");
         System.out.println("Subtotal: $" + subtotal);
-        System.out.printf("Sales Tax: $%.2f%n", tax);
-        System.out.printf("Grand Total: $%.2f%n", grandTotal);
+        System.out.println("Sales Tax: $" + tax);
+        System.out.println("Grand Total: $" + grandTotal);
 
     }
 }
