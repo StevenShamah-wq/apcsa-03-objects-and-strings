@@ -16,7 +16,30 @@
 public class Receipt2 {
     public static void main(String[] args) {
 
-        // Your code here
+        double burgerPrice = 8.50;
+        double friesPrice = 3.00;
+        double sodaPrice = 2.50;
+
+        int burgerQty = 2;
+        int friesQty = 1;
+        int sodaQty = 2;
+
+        double burgerTotal = burgerPrice * burgerQty;
+        double friesTotal = friesPrice * friesQty;
+        double sodaTotal = sodaPrice * sodaQty;
+        double subtotal = burgerTotal + friesTotal + sodaTotal;
+        double tax = subtotal * 0.08875;
+        double grandTotal = subtotal + tax;
+
+        System.out.println("        RECEIPT");
+        System.out.println("----------------------");
+        System.out.println("Burgers: $" + burgerTotal);
+        System.out.println("Fries: $" + friesTotal);
+        System.out.println("Soda: $" + sodaTotal);
+        System.out.println("----------------------");
+        System.out.println("Subtotal: $" + subtotal);
+        System.out.printf("Sales Tax: $%.2f%n", tax);
+        System.out.printf("Grand Total: $%.2f%n", grandTotal);
 
     }
 }
